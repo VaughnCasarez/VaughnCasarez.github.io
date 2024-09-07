@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const products = [
         { id: 1, name: 'Bioworld', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        { id: 2, name: 'Boston America Corp', description: 'Powerful laptop with M2 chip.', image: 'brand_logos/bostamer_corp.jpg', page: 'construction.html' },
+        { id: 2, name: 'Boston America Corp', image: 'brand_logos/bostamer_corp.jpg', page: 'construction.html' },
         { id: 3, name: 'Cloak', image: 'brand_logos/cloak_logo.png', page: 'construction.html' },
         { id: 4, name: 'Creator Ink', image: 'brand_logos/creatorink_logo.jpg', page: 'construction.html' },
         { id: 5, name: "Dave & Buster's", image: 'brand_logos/d&b_logo.png', page: 'construction.html' },

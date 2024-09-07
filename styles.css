@@ -187,7 +187,7 @@ footer {
 }
 
 .product-detail img {
-    max-width: 100%;
+    max-width: 225px;
     height: auto;
     border-radius: 10px;
     margin-bottom: 2rem;

@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     const products = [
-        { id: 1, name: 'Clothes', description: 'The latest iPhone with advanced features.', image: 'hat.jpg', page: 'bioworld.html' },
-        { id: 2, name: 'Backpacks', description: 'Powerful laptop with M2 chip.', image: 'shirt.jpg', page: 'Bioworld/backpack.html' },
-        { id: 3, name: 'Blankets', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        { id: 4, name: 'Keychain', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        { id: 5, name: 'Lunchboxes', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        { id: 6, name: 'Patches', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        {id: 7, name: 'Water Bottles', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        {id: 8, name: 'Wristband', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' }
+        { id: 1, name: 'Clothes', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'construction.html' },
+        { id: 2, name: 'Backpacks', description: 'Powerful laptop with M2 chip.', image: 'backpacks/backpack1.jpeg', page: 'backpack.html' },
+        { id: 3, name: 'Blankets', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'construction.html' },
+        { id: 4, name: 'Keychain', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'construction.html' },
+        { id: 5, name: 'Lunchboxes', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'construction.html' },
+        { id: 6, name: 'Patches', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'construction.html' },
+        {id: 7, name: 'Water Bottles', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'construction.html' },
+        {id: 8, name: 'Wristband', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'construction.html' }
     ];
 
     const productList = document.querySelector('.product-list');

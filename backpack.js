@@ -1,16 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
     const products = [
-        { id: 1, name: 'backpack1', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack1.jpeg', page: 'bioworld.html' },
-        { id: 2, name: 'backpack2', description: 'Powerful laptop with M2 chip.', image: 'backpacks/backpack2.webp', page: '' },
-        { id: 3, name: 'backpack3', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        { id: 4, name: 'backpack4', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        { id: 5, name: 'backpack5', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        { id: 6, name: 'backpack6', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        {id: 7, name: 'backpack7', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        {id: 8, name: 'backpack8', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        {id: 9, name: 'backpack9', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        {id: 10, name: 'backpack10', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' },
-        {id: 11, name: 'backpack11', description: 'The latest iPhone with advanced features.', image: 'brand_logos/bioworld_logo.png', page: 'bioworld.html' }
+        { id: 1, name: 'backpack1', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack1.jpeg', page: 'backpack1.html' },
+        { id: 2, name: 'backpack2', description: 'Powerful laptop with M2 chip.', image: 'backpacks/backpack2.png', page: 'construction.html' },
+        { id: 3, name: 'backpack3', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack3.png', page: 'construction.html' },
+        { id: 4, name: 'backpack4', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack4.png', page: 'construction.html' },
+        { id: 5, name: 'backpack5', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack5.png', page: 'construction.html' },
+        { id: 6, name: 'backpack6', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack6.png', page: 'construction.html' },
+        {id: 7, name: 'backpack7', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack7.png', page: 'construction.html' },
+        {id: 8, name: 'backpack8', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack8.png', page: 'construction.html' },
+        {id: 9, name: 'backpack9', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack9.png', page: 'construction.html' },
+        {id: 10, name: 'backpack10', description: 'The latest iPhone with advanced features.', image: 'backpacks/backpack10.png', page: 'construction.html' }
     ];
 
     const productList = document.querySelector('.product-list');
